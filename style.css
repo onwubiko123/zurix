@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@200;300;400;500;600;700;800&display=swap');
+
+/* CSS FOR CONTAINER */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    height: auto;
+    min-height: 1000px;
+    width: 1000px;
+    background: #f0f0f0;
+    margin: 2em;
+}
+.max-width{
+    width: 100%;
+    position: relative;
+}
+.header{
+    height: 250px;
+    background: rgb(226, 238, 243);
+}
+.logo, img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+}
+.logo img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header h1{
+    position: absolute;
+    /* width: 250px; */
+    top: 30px;
+    left: 170px;
+    font-weight: 800;
+    font-size: 2em;
+}
+.header h3{
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: blue;
+}
+.header p{
+    position: absolute;
+    width: 500px;
+    left: 170px;
+    bottom: 15px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.logo2, img{
+    position: absolute;
+    width: 150px;
+    right: 4px;
+    top: 45px;
+    border-radius: inherit;
+}
+
+.header h4{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+.header h4:hover{
+    background: skyblue;
+    color: black;
+}
+
+/* CSS FOR CONTACT */
+.contact{
+    height: 150px;
+    background: white;
+}
+.contact ul{
+    list-style: none;
+    position: relative;
+    bottom: 12px;
+    display: inline-block;
+    margin: 2em;
+}
+
+.contact ul li .icon{
+    margin-right: 40px;
+    line-height: 2em;
+    width: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact ul li a:hover{
+    background: skyblue;
+    color: black;
+}
+
+
+/* CSS FOR BODY OF RESUME */
+.edu{
+    height: 600px;
+    background: #fff;
+}
+.sidebar, .rightbar{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin: 2em;
+}
+.sidebar h2, .rightbar h2{
+    font-weight: 600;
+    color: blue;
+}
+
+.edu-1{
+    width: 142px;
+    border-width: medium;  
+}
+
+.work{
+    width: 245px;
+    border-width: medium; 
+}
+
+.ref{
+    width: 135px;
+    border-width: medium; 
+}
+
+.ski{
+    width: 86px;
+    border-width: medium; 
+}
+
+.cert{
+    width: 180px;
+    border-width: medium; 
+}
+
+.lan{
+    width: 160px;
+    border-width: medium; 
+}
+
+.sidebar ul, ol, .rightbar ul, ol{
+    list-style: none;
+}
+.sidebar p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* CSS FOR RIGHTBAR */
+.rightbar{
+    right: -60px;
+}
+.skill li{
+    display: inline;
+    margin-right: 5px;
+    line-height: 2.5em;
+}
+.rightbar ol li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.rightbar button{
+    background: lightblue;
+    border: blue;
+    padding: 0.5em;
+    border-radius: 10%;
+    font-size: 15px;
+    font-weight: 300;
+}
